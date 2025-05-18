@@ -30,7 +30,7 @@ export default function Text(props) {
         <>
             <div className={`container mt-5 p-2 text-${props.mode==='light'?'dark':'light'}`}>
                 <h2 className="mb-2" >Enter Text to Uppercase:</h2>
-                <textarea className="form-control" style={{backgroundColor:props.mode==='light'?'white':'#6D6F70', color:props.mode==='light'?'black':'white' }} rows="8" value={Text} onChange={Change} aria-label="With textarea"></textarea>
+                <textarea className="form-control" style={{backgroundColor:props.mode==='light'?'white':'#373b43', color:props.mode==='light'?'black':'white' }} rows="8" value={Text} onChange={Change} aria-label="With textarea"></textarea>
                 <button type="submit" className="btn btn-primary my-3 mx-1" onClick={CLClick}>Clear Text</button>
                 <button type="submit" className="btn btn-primary mx-1" onClick={UpClick}>Change to Uppercase</button>
                 <button type="submit" className="btn btn-primary mx-1" onClick={LoClick}>Change to Lowercase</button>
